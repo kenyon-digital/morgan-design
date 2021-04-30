@@ -1,0 +1,427 @@
+/***********************************************
+   	 CUSTOM FONTS				 
+***********************************************/
+@font-face {
+	font-family: 'Franklin';
+	src: 	url('../fonts/Franklin.eot');
+	src:	url('../fonts/Franklin.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Franklin.woff') format('woff'),
+			url('../fonts/Franklin.svg#Franklin') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'FranklinBold';
+	src: 	url('../fonts/FranklinBold.eot');
+	src:	url('../fonts/FranklinBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/FranklinBold.woff') format('woff'),
+			url('../fonts/FranklinBold.svg#FranklinBold') format('svg');
+	font-weight: bold;
+}
+
+
+
+@font-face {
+	font-family: 'Garamond';
+	src: 	url('../fonts/Garamond.eot');
+	src:	url('../fonts/Garamond.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Garamond.woff') format('woff'),
+			url('../fonts/Garamond.svg#Garamond') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'Garamond';
+	src: 	url('../fonts/GaramondSmallcaps.eot');
+	src:	url('../fonts/GaramondSmallcaps.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondSmallcaps.woff') format('woff'),
+			url('../fonts/GaramondSmallcaps.svg#GaramondSmallcaps') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Garamond';
+	src: 	url('../fonts/GaramondItalic.eot');
+	src:	url('../fonts/GaramondItalic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondItalic.woff') format('woff'),
+			url('../fonts/GaramondItalic.svg#GaramondItalic') format('svg');
+	font-style: italic;
+}
+
+/***********************************************
+   	 TYPE STYLES				 
+***********************************************/
+html,body{
+	font-family: Garamond;
+	zoom: 1;
+	font-size:16px;
+	line-height: 22px;
+	color: rgb(35,31,32);
+}
+
+h1,h2,h3,h4,h5{
+	font-family: Garamond;
+	zoom: 1;
+	font-weight: bold;
+	font-size:17px;
+	line-height: 22px;
+
+}
+h1{
+	
+	letter-spacing: 2px;
+	color: rgb(0,91,148);
+	font-size:18px;
+	line-height:22px;
+}
+h4{
+	font-family: Franklin;
+	font-size:15px;
+	font-weight: bold;
+	margin-top:20px;
+	
+}
+h5{
+	font-family: Franklin;
+	font-size:15px;
+	line-height: 18px;
+	font-weight: bold;
+	margin:0px 0px 10px 0px;
+	
+}
+h5 .footnote{
+	margin:0px;
+	padding:0px;
+	text-indent: 0px;
+	line-height: 18px;
+}
+a{
+	color: rgb(35,31,32);
+	text-decoration: none;
+	outline: 0 !important;
+}
+a:hover{
+	text-decoration: underline;
+	color: rgba(35,31,32, 0.75);
+}
+.footnote{
+	font-family: Franklin;
+	zoom: 1;
+	font-size:10px;
+	line-height: 15px;
+	text-indent: -7px;
+	padding-left:7px;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+.caption{
+	font-family: Franklin;
+	zoom: 1;
+	font-size:15px;
+	line-height: 18px;
+	margin-top:4px;
+	/*color: rgb(88,147,65);*/
+}
+.position-title{
+	font-style: italic;
+	font-size:16px;
+	line-height: 16px;
+}
+.sans{
+	font-family: franklin;
+	zoom: 1;
+	font-size:15px;
+}
+.fw-normal{
+	font-weight: normal;
+}
+/***********************************************
+   	 NAVIGATION STYLES				 
+***********************************************/
+.navbar{
+	background-color: transparent;
+}
+.navbar-toggle{
+	border: 2px solid rgb(35,31,32);
+	margin-top:19px;
+	background-color: rgb(35,31,31);	
+}
+.navbar-toggle .icon-bar{
+	border: 1px solid rgb(255,255,255);
+	background-color: rgb(255,255,255);
+}
+.navbar-header{
+	height: 100px;
+}
+.navbar li{
+	background: transparent !important;
+}
+.navbar li a{
+	color: #ffffff;
+	padding: 25px 8px;
+	font-family: Franklin;
+	zoom: 1;
+	/*text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);*/
+	text-align: center;
+	background: transparent !important;
+	outline: 0 !important;
+}
+.navbar li a:hover{
+	color: #cccccc;
+}
+.navbar-brand{
+	position: relative;
+	display:block;
+	float:left;
+	
+}
+
+/***********************************************
+   	 LAYOUT STYLES				 
+***********************************************/
+body .jumbotron{
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin:0px;
+	padding:0px;
+	position: relative;
+}
+.section{
+	margin-top:100px;
+}
+.container{
+	max-width:960px;
+}
+.modal-launch{
+	cursor:pointer;
+	margin-bottom:10px;
+}
+.modal-content{
+	padding:20px;
+}
+.modal .close{
+	font-weight: bold;
+	font-size: 28px;
+	margin-top:-10px;
+}
+
+img{
+	max-width:100%;
+}
+hr{
+	border-top: 1px solid #999999;
+}
+hr.no-margin{
+	margin-bottom:0px;
+}
+table, .table{
+	margin-bottom:0px;
+	border-bottom:1px solid #dddddd;
+}
+.table-title{
+	font-family: Franklin;
+	font-weight: bold;
+	font-size:15px;
+	line-height: 22px;
+	color: rgb(88,147,65);
+	text-align: left;
+}
+thead, thead td{
+	font-family:Garamond;
+	font-size:14px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: bottom !important;
+}
+.no-border{
+	border: none !important;
+}
+
+th{
+	font-weight: normal;
+}
+td{
+	font-family: Franklin;
+	font-size:15px;
+	text-align: right;
+}
+td.centered{
+	text-align:center;
+}
+td.left{
+	text-align:left;
+}
+td.right{
+	text-align:right;
+}
+
+.number{
+	display:inline-block;
+}
+.bsd-2012{
+	min-width:50px;
+}
+.bsd-2013{
+	min-width:64px;
+}
+.soo-2013{
+	min-width:54px;
+}
+.soo-2012{
+	min-width:40px;
+}
+
+a{
+	cursor: pointer;
+}
+footer{
+	margin-top:60px;
+	padding-bottom:100px;
+}
+footer, footer a{
+	
+	color: #999999;
+	font-family: Franklin;
+	font-size:12px;
+}
+.graph-container{
+	margin-bottom:60px;
+	margin-top:3px;
+}
+
+/***********************************************
+   	 CUSTOM ELEMENT STYLES				 
+***********************************************/
+#balance-table{
+	margin-top:60px;
+}
+.footnote.no-sup{
+	margin-top:10px; text-indent:0px; padding-left:0px;
+}
+.photo-info{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	color:#ffffff;
+	padding:14px;
+	font-family: Franklin;
+	font-size:13px;
+	line-height: 17px;
+	background:  rgb(0,91,148);
+}
+.modal-graph{
+	width:100%;
+	height: auto;
+}
+.portfolio-graph{
+	margin-top:20px;
+	
+}
+ #about-content{
+	margin-bottom:20px;
+}
+
+/***********************************************
+   	 IE7 FIXES				 
+***********************************************/
+.lt-ie8 .col-sm-4 {
+	width:30%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+
+.lt-ie8 hr{
+	width:100%;
+	display:block;
+	clear:both;
+	float:none;
+}
+.lt-ie8 .col-sm-6 {
+	width:48%;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.lt-ie8 .section {
+clear:both;
+}
+
+.lt-ie8 .section#portfolio{
+	padding-bottom:100px;
+}
+@media(min-width:1400px){
+	.lt-ie8 .jumbotron{
+		width:1400px;
+		margin:auto;
+	}
+		
+}
+
+@media(max-width:767px){
+	.lt-ie8 .col-sm-4 {
+		width:100%;
+		padding-left:15px;
+		padding-right:15px;
+	}
+}
+
+
+
+/***********************************************
+   	 MEDIA QUERIES				 
+***********************************************/
+@media(max-width:767px){
+	.navbar-nav{
+		background:#ffffff !important;
+		padding-bottom:50px;
+	}
+	.navbar li a{
+		padding:10px 20px;
+		color: rgb(0,0,0) !important;
+	}
+	.navbar li a:hover{
+		background:#f9f9f9;
+	}
+	.navbar-collapse{
+		background-color:#ffffff;
+	}
+	#ar-images > div {
+		margin-bottom:20px;
+	}
+	.graph-container{
+		margin-top:60px;
+		margin-bottom:0px;
+	}
+}
+@media(min-width:768px){
+	.navbar li a{
+		font-size:14px;
+		margin-top:8px;
+	}
+	h5 .footnote{
+		display:block;
+	}
+}
+@media(min-width:992px){
+	.navbar li a{
+		font-size:16px;
+		padding:24px 12px;
+		margin-top:8px;
+	}
+	h5 .footnote{
+		display: inline;
+	}
+	
+	.modal h5{
+		font-size:20px;
+		line-height: 26px;
+	
+	}
+}
+@media(min-width:1200px){	
+}
