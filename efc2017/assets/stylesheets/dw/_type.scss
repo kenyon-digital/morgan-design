@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/Franklin.eot');
+	src:	url('../fonts/Franklin.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Franklin.woff') format('woff'),
+			url('../fonts/Franklin.svg#Franklin') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/FranklinBold.eot');
+	src:	url('../fonts/FranklinBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/FranklinBold.woff') format('woff'),
+			url('../fonts/FranklinBold.svg#FranklinBold') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/FranklinDemiCondensed.eot');
+	src:	url('../fonts/FranklinDemiCondensed.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/FranklinDemiCondensed.woff') format('woff'),
+			url('../fonts/FranklinDemiCondensed.svg#FranklinDemiCondensed') format('svg');
+	font-weight: 600;
+}
+
+
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/Garamond.eot');
+	src:	url('../fonts/Garamond.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Garamond.woff') format('woff'),
+			url('../fonts/Garamond.svg#Garamond') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/GaramondSmallcaps.eot');
+	src:	url('../fonts/GaramondSmallcaps.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondSmallcaps.woff') format('woff'),
+			url('../fonts/GaramondSmallcaps.svg#GaramondSmallcaps') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/GaramondItalic.eot');
+	src:	url('../fonts/GaramondItalic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondItalic.woff') format('woff'),
+			url('../fonts/GaramondItalic.svg#GaramondItalic') format('svg');
+	font-style: italic;
+}
+
+
+.sub-section-header{
+	margin-bottom:20px;
+}
+.section-header{
+	margin-bottom:20px;
+}
+h1{
+	color: $gray-lightest;
+	background: $gray-dark;
+	margin:auto;
+	float:none;
+	text-align: center;
+	width:280px;
+	padding:11px 10px;
+	font-family: $font-family-sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: 600;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: geometricPrecision;
+}
+
+.subtitle{
+
+		font-size: 12px;
+		font-weight: normal;
+		color: $gray-base;
+		text-align: center;
+		margin-top:8px;
+		font-family: $font-family-sans-serif;
+	}
+h4{
+	font-family: $font-family-sans-serif;
+	margin-bottom:20px;
+}
+
+h5{
+	font-family: $font-family-sans-serif;
+	margin-bottom:0px;
+}
+p{
+	margin-bottom:20px;
+	.dropcap{
+		float: left;
+		color: $brand-primary;
+		font-size: 90px;
+		line-height: 69px;
+		padding:4px 2px 0 0;
+		margin-bottom:-4px;
+	}
+	.uppercase{
+		font-weight: bold;
+		letter-spacing: 1.15px;
+	}
+}
+
+
+.footnote{
+	font-family: $font-family-sans-serif;
+	font-size: 13px;
+	text-indent: -7px;
+	padding-left:7px;
+}
+.position-title{
+	font-style: italic;
+	zoom: 1;
+	font-size: $font-size-base;
+	line-height:  $font-size-base;
+}

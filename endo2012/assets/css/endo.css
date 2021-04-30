@@ -1,0 +1,412 @@
+a {
+	outline: 0 !important;
+}
+.container {
+	overflow: hidden;
+}
+.section-title {
+	overflow: hidden;
+}
+.slogan {
+	color: #fcb040;
+	padding-top: 34px;
+	font-size: 14px;
+	position: relative;
+	left: 0;
+	display: block;
+	float: left;
+	margin: 0px;
+}
+.slogan:hover {
+	color: #fcb040;
+}
+.section-header {
+	z-index: 999!important;
+}
+.navbar .nav>li>a{
+	font-family: 'BentonSans', sans-serif;
+}
+.secondary-nav {
+	z-index: 1 !important;
+	background: #ffffff;
+}
+.section-header {
+	background: 0px 0px repeat fixed bottom;
+	height: 360px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.job-title, .address {
+	font-family: BentonSans;
+	font-style: italic;
+	font-size: 15px;
+	line-height: 22px;
+}
+.reference {
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 12px;
+	text-indent: -8px;
+}
+.reference .span {
+}
+.reference sup {
+}
+#by-the-numbers .reference {
+	font-size: 10px;
+	line-height: 14px;
+	padding-left: 290px;
+	vertical-align: text-top;
+	display: block;
+	margin-bottom: 18px;
+}
+#by-the-numbers-2 {
+	padding-top: 5px;
+}
+.header-content {
+	z-index: 1000;
+}
+.section-content {
+	z-index: 1;
+	padding-top: 19px;
+}
+/* SECTION HEADERS */
+
+#letter-to-shareholders .section-header {
+	background-image: url(../img/to-our-shareholders.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/to-our-shareholders.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/to-our-shareholders.jpg', sizingMethod='scale')";
+}
+#featured-opportunities .section-header {
+	background-image: url(../img/featured-opportunities.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/featured-opportunities.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/featured-opportunities.jpg', sizingMethod='scale')";
+}
+#by-the-numbers .section-header {
+	background-image: url(../img/by-the-numbers.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/by-the-numbers.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/by-the-numbers.jpg', sizingMethod='scale')";
+}
+#business-segments .section-header {
+	background-image: url(../img/business-segments.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/business-segments.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/business-segments.jpg', sizingMethod='scale')";
+}
+#company-information .section-header {
+	background-image: url(../img/company-information.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/company-information.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/company-information.jpg', sizingMethod='scale')";
+}
+#financial-downloads .section-header {
+	background-image: url(../img/financial-downloads.jpg);
+ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/financial-downloads.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/financial-downloads.jpg', sizingMethod='scale')";
+}
+/* subnav and nav highlights*/
+.section .secondary-nav .active, .section .secondary-nav .active a {
+	font-weight: bold;
+}
+.nav-letter-to-shareholders a:hover, .nav-letter-to-shareholders .active, .nav-letter-to-shareholders .active a, #letter-to-shareholders .secondary-nav .active, #letter-to-shareholders .secondary-nav .active a, #letter-to-shareholders .secondary-nav .title, #letter-to-shareholders h3, #letter-to-shareholders h4, #letter-to-shareholders h5 {
+	color: #0093b2 !important;
+}
+.nav-featured-opportunities a:hover, .nav-featured-opportunities .active, .nav-featured-opportunities .active a, #featured-opportunities .secondary-nav .active, #featured-opportunities .secondary-nav .active a, #featured-opportunities .secondary-nav .title, #featured-opportunities h3, #featured-opportunities h4, #featured-opportunities h5 {
+	color: #b2bb1c !important;
+}
+.nav-by-the-numbers a:hover, .nav-by-the-numbers .active, .nav-by-the-numbers .active a, #by-the-numbers .secondary-nav .active, #by-the-numbers .secondary-nav .active a, #by-the-numbers .secondary-nav .title, #by-the-numbers h3, #by-the-numbers h4, #by-the-numbers h5 {
+	color: #f58026 !important;
+}
+.nav-business-segments a:hover, .nav-business-segments .active, .nav-business-segments .active a, #business-segments .secondary-nav .active, #business-segments .secondary-nav .active a, #business-segments .secondary-nav .title, #business-segments h3, #business-segments h4, #business-segments h5 {
+	color: #df376f !important;
+}
+.nav-company-information a:hover, .nav-company-information .active, .nav-company-information .active a, #company-information .secondary-nav .active, #company-information .secondary-nav .active a, #company-information .secondary-nav .title, #company-information h3, #company-information h4, #company-information h5 {
+	color: #008ab0 !important;
+}
+.nav-financial-downloads a:hover, .nav-financial-downloads .active, .nav-financial-downloads .active a, #financial-downloads .secondary-nav .active, #financial-downloads .secondary-nav .active a, #financial-downloads .secondary-nav .title, #financial-downloads h3, #financial-downloads h4, #financial-downloads h5 {
+	color: #fcb046 !important;
+}
+/* section header backgrounds*/
+
+.section-title {
+	margin: 0px;
+	padding: 0px;
+}
+h2 {
+	color: #ffffff;
+	font-family: "LeituraSans-Italic1";
+	font-size: 59px;
+	line-height: 59px;
+	padding: 26px 20px 35px 20px;
+	margin: 0px;
+	font-weight: normal;
+}
+#letter-to-shareholders .section-header h2 {
+	background: rgba(0,169,204,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#8100a9cc, endColorstr=#8100a9cc);
+	zoom: 1;
+}
+#featured-opportunities .section-header h2 {
+	background: rgba(178,187,28,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#81B2BB1C, endColorstr=#81B2BB1C);
+	zoom: 1;
+}
+#by-the-numbers .section-header h2 {
+	background: rgba(245,128,38,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#81F58026, endColorstr=#81F58026);
+	zoom: 1;
+}
+#business-segments .section-header h2 {
+	background: rgba(233,55,111,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#81E9376F, endColorstr=#81E9376F);
+	zoom: 1;
+}
+#company-information .section-header h2 {
+	background: rgba(0,138,176,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#81008AB0, endColorstr=#81008AB0);
+	zoom: 1;
+}
+#financial-downloads .section-header h2 {
+	background: rgba(252,176,70,0.65);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#81FCB046, endColorstr=#81FCB046);
+	zoom: 1;
+}
+.secondary-nav {
+	list-style: none;
+	padding-top: 2px;
+}
+.secondary-nav li a, .secondary-nav li {
+	color: #7e8088;
+	font-size: 12px;
+	line-height: 16px;
+}
+.secondary-nav li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+.secondary-nav li {
+	color: #7e8088;
+	font-size: 12px;
+	line-height: 16px;
+	padding-bottom: 8px;
+}
+.secondary-nav li.title {
+	font-size: 12px;
+}
+#opening-video {
+	border: none;
+}
+h3 {
+	font-family: "BentonSans Medium";
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 3px;
+}
+h4 {
+	font-family: "BentonSans";
+	font-style: italic;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+}
+h5 {
+	font-family: "BentonSans";
+	font-style: italic;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	margin-top: 0px;
+}
+h4 small {
+	font-family: "BentonSans";
+	font-style: normal;
+	color: #000000;
+	font-size: 12px;
+}
+.sub-section ul {
+	margin-left: 0px;
+}
+.sub-section li {
+	background: url(../img/bullet.png) no-repeat left 12px;
+	padding: 0px 0px 24px 15px;
+	margin-left: 0px;
+}
+#business-segments ul li {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	line-height: 24px;
+}
+#business-segments ul {
+	padding-bottom: 24px;
+}
+#business-segments ul.milestones li {
+	padding-bottom: 12px;
+}
+#business-segments ul.milestones {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+#home {
+	position: relative;
+	padding-bottom: 10px;
+}
+#scroll-hint {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -92px;
+	display: block;
+}
+#intro-video {
+	margin-bottom: 80px;
+}
+p.large {
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 3px;
+	font-family: "BentonSans Light";
+}
+#visualization {
+	padding-bottom: 30px;
+}
+.box {
+	float: left;
+	margin-right: 24px;
+	margin-bottom: 24px;
+	position: relative;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	padding: 0px;
+	cursor: pointer;
+}
+.box img {
+	float: left;
+	width: 120px;
+}
+.popover-content {
+	font-family: "LeituraSans-Italic1";
+	font-size: 17px;
+	line-height: 24px;
+	margin: 0px;
+}
+.popover-title {
+	display: none !important;
+}
+.popover.box1 {
+	background: #fcd9bd;
+}
+.popover.box2 {
+	background: #b2e5ef;
+}
+.popover.box3 {
+	background: #f5c3d3;
+}
+.popover.box4 {
+	background: #ecf3c0;
+}
+.popover.box5 {
+	background: #fde0bb;
+}
+.popover.box6 {
+	background: #b2dce7;
+}
+.popover.box7 {
+	background: #ffedbd;
+}
+.popover.box8 {
+	background: #e9b2ca;
+}
+.popover.box9 {
+	background: #e8eabb;
+}
+.popover.box1 .popover-content {
+	padding-top: 48px;
+}
+.popover.box2 .popover-content {
+	padding-top: 24px;
+}
+.popover.box3 .popover-content {
+	padding-top: 24px;
+}
+.popover.box4 .popover-content {
+	padding-top: 36px;
+}
+.popover.box5 .popover-content {
+	padding-top: 36px;
+}
+.popover.box6 .popover-content {
+	padding-top: 36px;
+}
+.popover.box7 .popover-content {
+	padding-top: 36px;
+}
+.popover.box8 .popover-content {
+	padding-top: 24px;
+}
+.popover.box9 .popover-content {
+	padding-top: 24px;
+}
+.box8reference {
+	display: none;
+	float: left;
+	clear: both;
+	width: 100%;
+	background: #ffffff;
+	padding: 0px;
+	margin: 25px 0px 0px 0px;
+	padding: 22px 0px 0px 9px;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: "BentonSans", sans-serif;
+	text-indent: -9px;
+}
+.popover-content sup {
+	font-size: 12px;
+	font-family: "BentonSans", sans-serif;
+}
+.box8reference sup {
+	font-size: 12px;
+	top: 0px;
+}
+#financial-downloads .section-content {
+	margin-top: 20px;
+}
+#by-the-numbers {
+	padding-bottom: 108px;
+}
+.download-box {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	position: relative;
+	overflow: visible;
+	width: 120px;
+	height: 120px;
+	max-height: 140px;
+	padding: 0px;
+}
+.download-box img {
+	float: left;
+	width: 120px;
+}
+#footer {
+}
+#footer p {
+	font-size: 12px;
+	line-height: 22px;
+	color: #7E8083;
+	padding-left: 20px;
+}
+#footer a {
+	font-size: 12px;
+	line-height: 22px;
+	color: #fcb040;
+}
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #333333;
+	border-bottom: 1px solid #ffffff;
+}

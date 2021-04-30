@@ -1,0 +1,54 @@
+
+.section.section-home .container .col-sm-offset-2{
+margin-left:0px;
+}
+
+
+.section.section-home .v-centered{
+	margin-top:20px;
+}
+#downloads-nav a .box-title{
+position: relative !important;
+padding:0px !important;
+}
+
+.sub-section{
+	
+	width:100%;
+}
+
+#home-toggle{
+	display:none !important;
+}
+
+
+#ie-warning{
+background:#d9534f; border-color: #d43f3a; z-index:99999999; position:absolute; top:0px; left:0px; width:100%; padding-top:10px; padding-bottom:10px; text-align: center;
+	
+	
+}
+
+#ie-warning-text{
+	font-size:13px; line-height: 22px;
+	 color:#ffffff; text-align:center;
+	 display: inline-block;
+	 margin-bottom:5px;
+}
+
+#ie-warning-closer{
+	cursor:pointer;
+	text-decoration: none !important;
+	color:#ffffff;
+	display: inline-block;
+	padding-left:20px;
+	font-weight: bold;
+	background: #a9231f;
+	padding:5px 10px;
+	font-size:12px;
+	line-height: 12px;
+	margin-left:20px;
+}
+
+.section-navigation .col-xs-6{
+	width:47%;
+}

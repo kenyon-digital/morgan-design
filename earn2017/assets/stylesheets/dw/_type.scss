@@ -1,0 +1,174 @@
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/Franklin.eot');
+	src:	url('../fonts/Franklin.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Franklin.woff') format('woff'),
+			url('../fonts/Franklin.svg#Franklin') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/FranklinBold.eot');
+	src:	url('../fonts/FranklinBold.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/FranklinBold.woff') format('woff'),
+			url('../fonts/FranklinBold.svg#FranklinBold') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Frankly';
+	src: 	url('../fonts/FranklinDemiCondensed.eot');
+	src:	url('../fonts/FranklinDemiCondensed.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/FranklinDemiCondensed.woff') format('woff'),
+			url('../fonts/FranklinDemiCondensed.svg#FranklinDemiCondensed') format('svg');
+	font-weight: 600;
+}
+
+
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/Garamond.eot');
+	src:	url('../fonts/Garamond.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Garamond.woff') format('woff'),
+			url('../fonts/Garamond.svg#Garamond') format('svg');
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/GaramondSmallcaps.eot');
+	src:	url('../fonts/GaramondSmallcaps.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondSmallcaps.woff') format('woff'),
+			url('../fonts/GaramondSmallcaps.svg#GaramondSmallcaps') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Garama';
+	src: 	url('../fonts/GaramondItalic.eot');
+	src:	url('../fonts/GaramondItalic.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/GaramondItalic.woff') format('woff'),
+			url('../fonts/GaramondItalic.svg#GaramondItalic') format('svg');
+	font-style: italic;
+}
+
+
+
+
+
+
+h1{
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	letter-spacing: .2em;
+	font-family: $font-family-sans-serif;
+	margin-top:0;
+	margin-bottom:0;
+	//font-size:17px;
+	border-top:50px solid $brand-primary;
+	padding-top:8px;
+
+	small{
+		font-weight: normal;
+		font-size: 12px;
+		text-transform: none;
+		color: #007DB5;
+		letter-spacing: 0px
+	}
+}
+
+.subtitle{
+
+		font-size: 12px;
+		font-weight: normal;
+		color: $gray-base;
+		text-align: center;
+		margin-top:8px;
+		font-family: sans-serif;
+	}
+h4{
+	font-family: $font-family-sans-serif;
+	margin-bottom:20px;
+}
+
+h5{
+	font-family: $font-family-sans-serif;
+	margin-bottom:0px;
+}
+p{
+	margin-bottom:20px;
+	.dropcap{
+		float: left;
+		color: $brand-primary;
+		font-size: 90px;
+		line-height: 69px;
+		padding:4px 2px 0 0;
+		margin-bottom:-4px;
+	}
+	.uppercase{
+		font-weight: bold;
+		letter-spacing: 1.15px;
+	}
+}
+
+
+.footnote{
+	font-family: $font-family-sans-serif;
+	font-size: 13px;
+	text-indent: -7px;
+	padding-left:7px;
+}
+.position-title{
+	font-style: italic;
+	zoom: 1;
+	font-size: $font-size-base;
+	line-height:  $font-size-base;
+}
+
+
+
+
+
+
+
+
+/*
+.cols{
+		-moz-column-count: 2;
+	-webkit-column-count: 2;
+	-ms-column-count: 2;
+	column-count:2;
+	-moz-column-gap: 30px;
+	-webkit-column-gap: 30px;
+	-ms-column-gap: 30px;
+	column-gap:30px;
+
+	p{
+		display:inline-block;
+		width:100%;
+	}
+	@media screen and (max-width: $screen-sm-max) {
+		-moz-column-count: 2;
+	-webkit-column-count: 2;
+	-ms-column-count: 2;
+	column-count:2;
+
+	}
+	@media screen and (max-width: $screen-xs-max) {
+		-moz-column-count: 1;
+	-webkit-column-count: 1;
+	-ms-column-count: 1;
+	column-count:1;
+		p{
+			//display:block;
+		}
+	}
+
+
+}*/
+

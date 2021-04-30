@@ -1,0 +1,71 @@
+table, .table{
+	margin-bottom:0px;
+	border-bottom:1px solid $table-border-color;
+}
+.table-title{
+	font-family: $font-family-sans-serif;
+	font-weight: bold;
+	font-size:$font-size-h4;
+	line-height: 22px;
+	color: $brand-primary;
+	text-align: left;
+	text-transform: none;
+	letter-spacing: 0;
+}
+thead, thead td{
+	font-family:$font-family-serif;
+	font-size:17px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: right;
+	letter-spacing:1px;
+}
+thead .year{
+	font-size:17px;
+	line-height: 22px;
+}
+.no-border{
+	border: none !important;
+}
+
+th{
+	font-weight: normal;
+	font-family: $font-family-serif;
+	font-size:17px;
+}
+
+td{
+	font-family: $font-family-sans-serif;
+	font-size:17px;
+	text-align: right;
+
+	&.dollar{
+		position: relative;
+		padding-left:30px;
+		&:before{
+			content: '$';
+			position: absolute;
+			left:10px;
+			@media screen and (min-width: $screen-md-min) {
+				left:20%;
+			}
+			@media screen and (min-width: $screen-lg-min) {
+				left:30%;
+			}
+
+		}
+	}
+}
+th sup{
+	font-size:10px;
+	top:-8.5px;
+}
+td.centered{
+	text-align:center;
+}
+td.left{
+	text-align:left;
+}
+td.right{
+	text-align:right;
+}

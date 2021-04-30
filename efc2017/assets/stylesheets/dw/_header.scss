@@ -1,0 +1,97 @@
+.navbar-collapse{
+	border:none !important;
+	//@include box-shadow(none);
+
+	@media screen and (max-width: $screen-sm-max) {
+	 // float:left !important;
+	}
+}
+.navbar{
+	//@include box-shadow(0px 0px 15px rgba(0,0,0,0));
+			background:rgba($brand-secondary,0);
+
+	//background-color:#0095da;
+	border:none;
+	@include transition(all 0.25s);
+	margin-bottom: 0 !important;
+	@media screen and (min-width: $screen-md-min) {
+		.container{
+			padding-left:60px;
+			padding-right:20px;
+		}
+	}
+
+
+
+	body.scroll &, body.nav-open &{
+		background:rgba($brand-secondary,1);
+
+		//@include box-shadow(0px 0px 15px rgba(0,0,0,0.75));
+
+		&.navbar-default .navbar-nav>li>a{
+			color: $gray-lightest;
+			&:hover, &:focus{
+				color: $gray-light;
+			}
+		}
+
+		&.navbar-default .navbar-toggle .icon-bar{
+			background-color: $gray-lightest;
+		}
+	}
+	ul{
+
+		@media screen and (min-width: $screen-sm-max) {
+			&{
+				margin-left:35px;
+				li:last-child a{ padding-right:0px;}
+			}
+		}
+
+
+		li a{
+			font-family:$font-family-sans-serif;
+			outline: 0 !important;
+			zoom: 1;
+			font-size:16px;
+			@media screen and (max-width: $screen-sm-max) {
+		  padding-left:0px;
+		}
+
+		}
+		@media screen and (min-width: $screen-md-min) {
+		   margin-top:-40px;
+		}
+		@media screen and (min-width: $screen-md-min) {
+		    margin-top: 28px;
+		}
+
+	}
+	.navbar-brand{
+		position:relative;
+		.site-title{
+			color:$gray-base;
+			font-family: $font-family-sans-serif;
+			font-weight:bold;
+			text-transform:uppercase;
+			letter-spacing:1.15px;
+			position:absolute;
+
+			width:200px;
+			font-size:17px;
+			text-align:center;
+			top: 78px;
+			font-size: 17px;
+
+			@media screen and (min-width: $screen-sm-min) {
+				left:246px;
+				top:18px;
+				text-align: left;
+			}
+
+		}
+	}
+	.navbar-toggle{
+		margin-top:11px;
+	}
+}

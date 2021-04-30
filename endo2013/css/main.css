@@ -1,0 +1,885 @@
+/*
+Letter: #fcb040
+Segments: #f58026
+Numbers: #b2bb1c
+Company #008ab0
+Financial  #b60050 //#b60050
+
+*/
+/* ==========================================================================
+   FONT FACES
+   ========================================================================== */
+ @font-face {font-family: 'Leitura Sans';src: url('../fonts/201D8E_0_0.eot');src: url('../fonts/201D8E_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/201D8E_0_0.woff') format('woff'),url('../fonts/201D8E_0_0.ttf') format('truetype');}
+
+
+/* ==========================================================================
+   TYPE STYLES
+   ========================================================================== */
+*,a,button{
+	outline-color:#ffffff;
+outline-style:none;
+outline-width: 0px;
+
+}
+body, p, a, ul, li, ol{
+color: #000000;
+font-family: 'BentonSans', Verdana, Arial, sans-serif;
+font-size:16px;
+line-height: 24px;
+}
+p{margin-bottom:24px;}
+p.large{
+	font-size:20px;
+	line-height: 30px;
+	font-family:'BentonSans Light', Verdana, Arial, sans-serif;
+	font-weight:normal;
+	font-style: normal;
+
+}
+p.reference{
+	font-family: 'BentonSans', Verdana, Arial, sans-serif;
+font-size: 12px;
+line-height: 18px;
+margin-bottom: 12px;
+text-indent: -8px;
+padding-left:8px;
+}
+p.reference.last{
+	margin-bottom:24px;
+}
+p.caption{
+	font-family: 'BentonSans', Verdana, Arial, sans-serif;
+font-size: 12px;
+line-height: 18px;
+margin-top:3px;
+color:#7e8088;
+}
+.job-title{
+	font-family: 'BentonSans', Verdana, Arial, sans-serif;
+font-size: 15px;
+font-style: italic;
+line-height: 22px;
+}
+h1,h2,h3,h4,h5{
+	font-weight:normal;
+}
+h1{}
+h2{font-family: "Leitura Sans", "Leitura Sans Backup", Verdana, Arial, sans-serif;
+	font-size: 49px;
+	line-height: 49px;
+	color: #ffffff;
+	margin-top:25px;}
+#section-financial h2{color: #b60050}
+h3{font-family: "BentonSans Medium", Verdana, Arial, sans-serif; font-size:16px; line-height: 24px; margin-top:0px; margin-bottom:6px;}
+h4{}
+h5{font-faimly:BentonSans, Verdana, Arial, sans-serif; font-size:16px; line-height: 24px; font-style: italic; margin-top:0px; margin-bottom:0px;}
+h4.underline{
+	border-bottom:2px solid #b2bb1c;
+	font-weight: normal;
+	font-family: "BentonSans Medium", Verdana, Arial, sans-serif;;
+	font-size:16px; line-height: 24px;
+}
+
+ .section-content ul{
+	margin: 0 0 14px 10px;
+	padding-left:10px;
+}
+.section-content li{padding-bottom:15px;}
+
+hr{border-top: 1px solid #7e8083; margin-top:0px;}
+.glyphicon{
+	font-family: 'Glyphicons Halflings', 'Glyphicons Halflings Backup';
+
+
+}
+
+/* ==========================================================================
+   SECTION COLORS
+   ========================================================================== */
+
+#section-letter h3, #section-letter h4, #section-letter h5{color:#fcb040;}
+#section-segments h3, #section-segments h4, #section-segments h5{color:#f58026;}
+#section-numbers h2, #section-numbers h3, #section-numbers h4, #section-numbers h5{color:#b2bb1c;}
+#section-company h3, #section-company h4, #section-company h5{color:#008ab0;}
+#section-financial h3, #section-financial h4, #section-financial h5{color:#b60050;}
+
+
+
+
+#in-section-home .navbar .container{background:#ffffff;}
+#in-section-letter .navbar .container, #letter-link, #letter-link-oc .block{background:#fcb040;}
+#in-section-segments .navbar .container, #segments-link, #segments-link-oc .block{background:#f58026;}
+#in-section-numbers .navbar .container, #numbers-link, #numbers-link-oc .block{background:#b2bb1c;}
+#in-section-company .navbar .container, #company-link, #company-link-oc .block{background:#008ab0;}
+#in-section-financial .navbar .container, #financial-link, #financial-link-oc .block{background:#b60050;}
+
+
+
+
+#section-home .section-header{
+background-image: url(../assets/img/sections/home_800x637.jpg);
+
+}
+#section-letter .section-header{background-image: url(../assets/img/sections/letter_800x334.jpg);
+/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/letter_800x334.jpg',sizingMethod='scale');*/}
+#section-segments .section-header{background-image: url(../assets/img/sections/segments_800x334.jpg);
+/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/segments_800x334.jpg',sizingMethod='scale');*/}
+#section-numbers .section-header{background-image: none; height:130px;}
+#section-company .section-header{background-image: url(../assets/img/sections/company_800x334.jpg);
+/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/company_800x334.jpg',sizingMethod='scale');*/}
+#section-financial .section-header{background-image: url(../assets/img/sections/financial_800x334.jpg);
+/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/financial_800x334.jpg',sizingMethod='scale');*/}
+
+
+
+#in-section-home .navbar-toggle{color: #666666; border-color:#666666; }
+#in-section-home .navbar-toggle .icon-bar{background-color: #666666;}
+#in-section-home .navbar-toggle .glyphicon{color: #666666;}
+#in-section-home .navbar-title{color: #fcb040;}
+
+#in-section-home #section-home{z-index:999; position:relative; height:auto;}
+#in-section-letter #section-letter{z-index:999; position:relative; height:auto;}
+#in-section-segments #section-segments{z-index:999; position:relative; height:auto;}
+#in-section-numbers #section-numbers{z-index:999; position:relative; height:auto;}
+#in-section-company #section-company{z-index:999; position:relative; height:auto;}
+#in-section-financial #section-financial{z-index:999; position:relative; height:auto;}
+
+
+
+
+/* ==========================================================================
+   NAVBAR NAVIGATION
+   ========================================================================== */
+.navbar-fixed-top .container{
+background-image: none;
+-webkit-transition: background-color 0.75s ease-in;
+-moz-transition: background-color 0.75s ease-in;
+-o-transition: background-color 0.75s ease-in;
+transition: background-color 0.75s ease-in;
+	position:relative;
+	padding:25px 30px;
+}
+
+
+
+.navbar .container .navbar-brand{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar-brand-container{
+	height:36px;
+	position:relative;
+}
+.navbar-title-container{
+	height:32px;
+	position:relative;
+}
+
+
+.navbar-title{
+	color: #ffffff;
+	-webkit-transition: color 0.75s ease-in;
+-moz-transition: color 0.75s ease-in;
+-o-transition: color 0.75s ease-in;
+transition: color 0.75s ease-in;
+	font-family: 'BentonSans', Verdana, Arial, sans-serif;;
+	font-size: 12px;
+	line-height: 18px;
+	position:absolute;
+	bottom:0px;
+	left:15px;
+}
+
+
+.navbar-brand img{
+height:36px;
+
+-webkit-transition: opacity 0.75s ease-in;
+-moz-transition: opacity 0.75s ease-in;
+-o-transition: opacity 0.75s ease-in;
+transition: opacity 0.75s ease-in;
+position:absolute;
+bottom:0px;
+left:15px;
+
+}
+
+.brand-color{opacity:0; display:none;}
+.brand-white{opacity:1; display:block;}
+#in-section-home .brand-color{opacity:1; display:block;}
+#in-section-home .brand-white{opacity:0; display: none;}
+
+.fixed-nav{
+	position:absolute;
+	top: 10px;
+	right:19px;
+
+}
+.navbar-toggle{
+	border-radius: 50%;
+	border-color: #ffffff;
+	display:block !important;
+	width:44px;
+	height:44px;
+	-webkit-transition: all 0.75s ease-in;
+	-moz-transition: all 0.75s ease-in;
+	-o-transition: all 0.75s ease-in;
+	transition: all 0.75s ease-in;
+	border-width: 2px;
+
+
+}
+
+#nav-toggle{
+
+}
+
+#home-toggle{
+	padding-top:5px;
+	padding-left:8px;
+}
+
+.navbar-toggle .icon-bar{
+	background-color:#ffffff;
+	-webkit-transition: all 0.75s ease-in;
+-moz-transition: all 0.75s ease-in;
+-o-transition: all 0.75s ease-in;
+transition: all 0.75s ease-in;
+height:3px;
+width:20px;
+
+}
+.navbar-toggle .glyphicon{
+	color:#ffffff;
+	-webkit-transition: all 0.75s ease-in;
+-moz-transition: all 0.75s ease-in;
+-o-transition: all 0.75s ease-in;
+transition: all 0.75s ease-in;
+font-size:22px;
+
+
+}
+
+/* ==========================================================================
+   OFF CANVAS NAVIGATION
+   ========================================================================== */
+
+
+
+.nav-offscreen{
+	 display: block;
+ width: 0px;
+ position: fixed;
+ top: 0;
+ right: 0;
+ height: 100%;
+ overflow:hidden;
+  transition: all 0.15s ease-in;
+  z-index:2;
+  background:#7e8083;
+  	z-index:99999999;
+
+
+
+}
+
+
+.nav-offscreen.in{
+width:300px;
+max-width: 90%;
+
+}
+
+.nav-offscreen .nav-inner{
+	position:fixed;
+
+	padding-bottom:20px;
+	padding-top:20px;
+	z-index:9999999999999;
+}
+.nav-offscreen ul.nav{
+
+	width:280px;
+	display:block;
+	height:100%;
+	overflow: auto;
+	margin-top:98px;
+
+}
+
+.nav-offscreen ul.nav li a{
+	line-height: 36px;
+	float:left;
+	display:inline-block;
+	margin:0px 0px 12px 15px;
+	padding:0px;
+	color: #ffffff;
+}
+
+.nav-offscreen ul.nav li a:hover{
+	background:none;
+}
+
+button#nav-toggle-close.navbar-toggle{
+
+	color: #ffffff;
+	border-color: #ffffff;
+	font-size:20px;
+	right:30px;
+	top:-10px;
+	border-width: 2px;
+	font-family:Arial;
+	background-image: url(../img/ico_close.png);
+
+	background-position: center center;
+	background-size:60%;
+	background-repeat: no-repeat;
+}
+
+.block{
+	height:36px;
+	width:36px;
+	display:inline-block;
+	float:left;
+	margin-right:12px;
+}
+
+/* ==========================================================================
+   SECTION NAVIGATION
+   ========================================================================== */
+  .section-nav{
+	display:block;
+	width:44px;
+	height:44px;
+}
+
+.section-nav.prev{float:right;
+	background-image: url(../img/ico_prev.png);
+	background-position: center center;
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+.section-nav.next{float:left;
+	background-image: url(../img/ico_next.png);
+	background-position: center center;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+/* ==========================================================================
+   HOME PAGE NAVIGATION
+   ========================================================================== */
+#home-section-nav{
+	padding-top:16px;
+}
+#home-section-nav a{
+		display:block;
+		text-align: center;
+		color:#ffffff;
+		height:40px;
+		line-height:40px;
+		vertical-align: middle;
+		position: relative;
+		margin-top:20px;
+}
+.v-centered{
+	vertical-align: middle;
+	display:inline-block !important;
+	float:none;
+	font-size:16px;
+	line-height: 24px;
+	padding:0 10px;
+}
+
+
+
+/* ==========================================================================
+   PAGE STYLES
+   ========================================================================== */
+
+html, body{
+	padding:0; margin:0;
+	background-color: #cccccc;
+}
+#wrapper{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	position: relative;
+	margin-top:118px;
+	background-color: #cccccc;
+}
+
+.container{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+
+
+/* ==========================================================================
+   SECTIONS FUNCTIONALITY AND LAYOUT
+   ========================================================================== */
+.sections, .section{
+	background-color: #cccccc;
+}
+.sections{
+
+	position:relative;
+	height:100%;
+	overflow:visible;
+	margin-top:0px;
+}
+.section {
+width:100%;
+top:0px;
+right:-120%;
+position: absolute;
+-webkit-transition: all 0.75s ease-in;
+-moz-transition: all 0.75s ease-in;
+-o-transition: all 0.75s ease-in;
+transition: all 0.75s ease-in;
+z-index:100;
+
+}
+
+.sections .container{
+	background-color:#ffffff;
+	padding-bottom:40px;
+}
+.section .section-header{
+	background-position: center center;
+	background-size: cover;
+	height:313px;
+	margin-bottom:7px;
+	margin-left:-30px;
+	margin-right:-30px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#section-home .section-header{
+	height:597px;
+	margin-bottom:7px;
+}
+
+/* ==========================================================================
+   BY THE NUMBERS SECTION
+   ========================================================================== */
+   .numbers_infographic{
+	   background-position: top center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-image:none;
+	margin-top:30px;
+	margin-bottom:30px;
+   }
+   .numbers_infographic img{
+	   width:100%;
+   }
+/* ==========================================================================
+   FINANCIAL DOWNLOADS SECTION
+   ========================================================================== */
+ #downloads-nav a{
+	 display:block;
+	 width:100%;
+	 color: #ffffff;
+	 text-align: center;
+	 position:relative;
+	 padding:20px;
+	 margin-bottom:20px;
+	 height: 70px;
+ }
+
+#download-ar{
+	background: #fcb040;
+}
+#download-proxy{
+	background: #008ab0;
+}
+#download-10k{
+	background: #b60050;
+}
+
+#downloads-nav a .download-arrow{
+	display:block;
+	float:right;
+	height:30px;
+	width:30px;
+}
+#downloads-nav a .box-title{
+
+	display:block;
+	float:left;
+	text-align: left;
+	margin-right:0px;
+		font-size:18px;
+	line-height: 30px;
+	height: 30px;
+}
+#section-financial .section-nav{
+margin-top:100px;
+margin-bottom:30px;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+#footer, #footer a{
+
+	font-size: 12px;
+line-height: 22px;
+color: #7E8083;
+}
+.copyright{
+	display:inline-block;
+	font-size:12px;
+}
+.credits{
+	display:inline-block;
+}
+#footer-nav{
+	list-style: none;
+	display: block;
+	margin-left:-2px;
+	margin:0px 0px 0px -3px;
+	padding:0px;
+	position: relative;
+}
+#footer-nav li{
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+
+}
+
+#footer-nav li a{
+	color:#fcb040;
+	padding:0px 5px 0px 2px;
+	margin-top:4px;
+	font-size:12px;
+}
+
+
+
+
+
+/* ==========================================================================
+   IE8 SPECIFIC RULES
+   ========================================================================== */
+
+   .lt-ie9 #ams_numbers, .lt-ie9 #qualitest_numbers, .lt-ie9 #endo_numbers{
+	   background-image:none !important;
+   }
+   .lt-ie9 button#nav-toggle-close.navbar-toggle{
+   	background-image: url(../img/ico_close_ie8.png);
+   }
+
+   .lt-ie9 .section-nav.prev{float:right;
+		background-image: url(../img/ico_prev_ie8.png);
+		height:46px;
+		width:46px;
+	}
+	.lt-ie9 .section-nav.next{float:left;
+		background-image: url(../img/ico_next_ie8.png);
+		height:46px;
+		width:46px;
+
+	}
+
+
+
+
+/* ==========================================================================
+   MEDIA QUERIES
+   ========================================================================== */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	#wrapper{
+		margin-top:86px;
+	}
+
+
+
+
+
+	.navbar-title-container{
+		height:36px;
+	}
+	.navbar-title{
+		font-size:16px;
+		line-height: 24px;
+		bottom:-3px;
+		left:46px;
+	}
+
+
+	h2{
+		font-size:82px;
+		line-height: 82px;
+	}
+	#home-section-nav{
+
+		padding-top:0px;
+	}
+
+	#home-section-nav a{
+		height:95px;
+		line-height:95px;
+		margin-top:30px;
+	}
+
+	.v-centered{
+		font-size:12px;
+		line-height: 18px;
+		padding:0 10px;
+	}
+
+	#downloads-nav a{
+		height:170px;
+		padding:0px;
+	}
+
+
+
+		#downloads-nav a .download-arrow{
+	position:absolute;
+	top:auto;
+	bottom:20px;
+	left:50%;
+	margin-left:-20px;
+	height:40px;
+	width:40px;
+
+}
+
+
+
+
+	#downloads-nav a .box-title{
+		font-size:20px;
+		line-height: 30px;
+	top:20px;
+	bottom:auto;
+	display: block;
+	position: absolute;
+	padding:0px 15px;
+	width:100%;
+	text-align: center;
+	}
+
+
+	.section .section-header{
+	margin-bottom:20px;
+	}
+
+	#section-home .section-header{
+		background-image: url(../assets/img/sections/home_1200x956.jpg);
+		 margin-bottom:7px;
+		 /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/home_1200x956.jpg',sizingMethod='scale');*/
+		}
+	#section-letter .section-header{background-image: url(../assets/img/sections/letter_1200x501.jpg);
+		 /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/letter_1200x501.jpg',sizingMethod='scale');*/}
+	#section-segments .section-header{background-image: url(../assets/img/sections/segments_1200x501.jpg);
+		 /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/segments_1200x501.jpg',sizingMethod='scale');*/}
+	#section-company .section-header{background-image: url(../assets/img/sections/company_1200x501.jpg);
+		 /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/company_1200x501.jpg',sizingMethod='scale');*/}
+	#section-financial .section-header{background-image: url(../assets/img/sections/financial_1200x501.jpg);
+		 /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/financial_1200x501.jpg',sizingMethod='scale');*/}
+
+
+	#footer-nav{
+		margin-left:30px;
+		margin-right:25px;
+		display:inline-block;
+	}
+
+	.nav-offscreen ul.nav{
+
+	margin-top:66px;
+
+}
+#section-financial .section-nav{
+margin-top:300px;
+margin-bottom:50px;
+}
+	#ams_numbers{
+	   background-image: url(../assets/img/numbers/ams_numbers_sm.png);
+	   /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/ams_numbers_sm.png',sizingMethod='scale');*/
+	   height:266px;
+   }
+   #qualitest_numbers{
+	   background-image: url(../assets/img/numbers/qualitest_numbers_sm.png);
+	   /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/qualitest_numbers_sm.png',sizingMethod='scale');*/
+	   height:210px;
+   }
+   #endo_numbers{
+	   background-image: url(../assets/img/numbers/endo_numbers_sm.png);
+	   /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/endo_numbers_sm.png',sizingMethod='scale');*/
+	   height:201px;
+   }
+
+
+
+} /* END Small devices (tablets, 768px and up) */
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.navbar-title{
+		left:15px;
+	}
+
+
+	#home-section-nav a{
+		height:131px;
+		line-height:131px;
+	}
+
+	.v-centered{
+		font-size:16px;
+		line-height: 24px;
+		padding:0 10px;
+	}
+
+
+	.section .section-header{
+		height:405px;
+	}
+
+	#section-home .section-header{
+		height:772px;
+	}
+
+	#downloads-nav a{
+		height:165px;
+	}
+
+
+
+	 #ams_numbers{
+	   background-image: url(../assets/img/numbers/ams_numbers_md.png);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/ams_numbers_md.png',sizingMethod='scale');*/
+	   height:351px;
+   }
+   #qualitest_numbers{
+	   background-image: url(../assets/img/numbers/qualitest_numbers_md.png);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/qualitest_numbers_md.png',sizingMethod='scale');*/
+	   height:277px;
+   }
+   #endo_numbers{
+	   background-image: url(../assets/img/numbers/endo_numbers_md.png);
+
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/endo_numbers_md.png',sizingMethod='scale');*/
+	   height:265px;
+   }
+
+
+
+
+} /* END Medium devices (desktops, 992px and up) */
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	h2{
+		font-size:102px;
+		line-height: 102px;
+	}
+
+	#wrapper{
+		margin-top:92px;
+	}
+	.navbar-brand-container{
+		height:42px;
+	}
+	.navbar-brand img{
+		height:42px;
+	}
+	.navbar-title-container{
+		height:42px;
+	}
+	.navbar-title{
+		font-size:18px;
+		line-height: 27px;
+		left:15px;
+		bottom:-2px;
+	}
+
+
+	#home-section-nav a{
+		height:165px;
+		line-height:165px;
+	}
+
+	.v-centered{
+		font-size:20px;
+		line-height: 30px;
+		padding:0 10px;
+	}
+
+	#section-home .section-header{
+		height:932px;
+	}
+
+	.section .section-header{
+		height:488px;
+	}
+
+	#downloads-nav a{
+		height:128px;
+	}
+	#downloads-nav a .box-title{
+		font-size:16px;
+		line-height: 20px;
+		top:12px;
+	}
+
+
+	.nav-offscreen ul.nav{
+
+	margin-top:72px;
+
+	}
+
+
+	#ams_numbers{
+	   background-image: url(../assets/img/numbers/ams_numbers_lg.png);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/ams_numbers_lg.png',sizingMethod='scale');*/
+	   height:428px;
+   }
+   #qualitest_numbers{
+	   background-image: url(../assets/img/numbers/qualitest_numbers_lg.png);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/qualitest_numbers_lg.png',sizingMethod='scale');*/
+	   height:338px;
+   }
+   #endo_numbers{
+	   background-image: url(../assets/img/numbers/endo_numbers_lg.png);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/numbers/endo_numbers_lg.png',sizingMethod='scale');*/
+	   height:323px;
+   }
+
+   #section-home .caption{
+	   padding-right:140px;
+   }
+
+
+	#section-home .section-header{
+		background-image: url(../assets/img/sections/home_2400x1911.jpg);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/home_2400x1911.jpg',sizingMethod='scale');*/
+	}
+	#section-letter .section-header{background-image: url(../assets/img/sections/letter_2400x1002.jpg);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/letter_2400x1002.jpg',sizingMethod='scale');*/
+	}
+	#section-segments .section-header{background-image: url(../assets/img/sections/segments_2400x1002.jpg);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/segments_2400x1002.jpg',sizingMethod='scale');*/}
+	#section-company .section-header{background-image: url(../assets/img/sections/company_2400x1002.jpg);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/company_2400x1002.jpg',sizingMethod='scale');*/}
+	#section-financial .section-header{background-image: url(../assets/img/sections/financial_2400x1002.jpg);
+		/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/img/sections/financial_2400x1002.jpg',sizingMethod='scale');*/}
+} /* END Large devices (large desktops, 1200px and up) */

@@ -1,0 +1,22 @@
+
+
+footer{
+	padding-bottom:40px;
+	color:$gray-dark;
+	margin-top:-20px;
+	@media screen and (min-width: $screen-sm-min) {
+		.container{
+			padding:0px;
+		}
+	}
+}
+footer, footer a{
+	color:$gray-dark;
+	font-family: $font-family-sans-serif;
+	font-size:14px;
+}
+footer a:hover{
+	olor:$gray-darker;
+}
+
+

@@ -1,0 +1,101 @@
+
+
+
+
+
+#section-letter .section-header{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/letter_800x334.jpg',sizingMethod='scale');}
+#section-segments .section-header{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/segments_800x334.jpg',sizingMethod='scale');}
+#section-company .section-header{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/company_800x334.jpg',sizingMethod='scale');}
+#section-financial .section-header{
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/financial_800x334.jpg',sizingMethod='scale');}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {	 
+	#section-home .section-header{
+		 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/home_1200x956.jpg',sizingMethod='scale');
+		}
+	#section-letter .section-header{
+		 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/letter_1200x501.jpg',sizingMethod='scale');}
+	#section-segments .section-header{
+		 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/segments_1200x501.jpg',sizingMethod='scale');}
+	#section-company .section-header{
+		 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/company_1200x501.jpg',sizingMethod='scale');}
+	#section-financial .section-header{
+		 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/financial_1200x501.jpg',sizingMethod='scale');}
+		 
+		 
+
+		 #ams_numbers{
+	   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/ams_numbers_sm.png',sizingMethod='scale');
+   }
+   #qualitest_numbers{
+	   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/qualitest_numbers_sm.png',sizingMethod='scale');
+   }
+   #endo_numbers{
+	   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/endo_numbers_sm.png',sizingMethod='scale');
+   }
+
+
+}
+
+@media (min-width: 992px) {
+
+ #ams_numbers{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/ams_numbers_md.png',sizingMethod='scale');
+   }
+   #qualitest_numbers{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/qualitest_numbers_md.png',sizingMethod='scale');
+   }
+   #endo_numbers{
+	   
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/endo_numbers_md.png',sizingMethod='scale');
+   }
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+
+
+
+	
+	#ams_numbers{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/ams_numbers_lg.png',sizingMethod='scale');
+   }
+   #qualitest_numbers{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/qualitest_numbers_lg.png',sizingMethod='scale');
+   }
+   #endo_numbers{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/numbers/endo_numbers_lg.png',sizingMethod='scale');
+   }
+
+
+
+#section-home .section-header{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/home_2400x1911.jpg',sizingMethod='scale');
+	}
+	#section-letter .section-header{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/letter_2400x1002.jpg',sizingMethod='scale');
+	}
+	#section-segments .section-header{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/segments_2400x1002.jpg',sizingMethod='scale');}
+	#section-company .section-header{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/company_2400x1002.jpg',sizingMethod='scale');}
+	#section-financial .section-header{
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/sections/financial_2400x1002.jpg',sizingMethod='scale');}
+
+
+
+
+}

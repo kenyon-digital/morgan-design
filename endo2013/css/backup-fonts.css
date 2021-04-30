@@ -1,0 +1,9 @@
+ @font-face {font-family: 'Leitura Sans Backup';src: url('//endo2013.digitalworkboots.com/fonts/201D8E_0_0.eot');src: url('//endo2013.digitalworkboots.com/fonts/201D8E_0_0.eot?#iefix') format('embedded-opentype'),url('//endo2013.digitalworkboots.com/fonts/201D8E_0_0.woff') format('woff'),url('//endo2013.digitalworkboots.com/fonts/201D8E_0_0.ttf') format('truetype');}
+ 
+ 
+ 
+	 @font-face {
+  font-family: 'Glyphicons Halflings Backup';
+  src: url('//endo2013.digitalworkboots.com/fonts/glyphicons-halflings-regular.eot');
+  src: url('//endo2013.digitalworkboots.com/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('//endo2013.digitalworkboots.com/fonts/glyphicons-halflings-regular.woff') format('woff'), url('//endo2013.digitalworkboots.com/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('//endo2013.digitalworkboots.com/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
